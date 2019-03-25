@@ -1,0 +1,41 @@
+{
+  "name": "react-material-ui",
+  "displayName": "React Material-UI",
+  "description": "React Material-UI Snippets for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "hardikpthv",
+  "license": "MIT",
+  "icon": "images/r-mui.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
+  "homepage": "https://github.com/hardikpthv/vscode-react-mui/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/hardikpthv/vscode-react-mui/issues"
+  },
+  "keywords": [
+    "Material UI",    
+    "Material Design",
+    "React Material",
+    "JavaScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hardikpthv/vscode-react-mui.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
